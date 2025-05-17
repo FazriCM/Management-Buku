@@ -18,10 +18,10 @@
                 <td>
                     <form action="{{ route('kategori.destroy', $r->id) }}" method="post">
                         <a href="{{ route('kategori.show', $r->id) }}" class="tombol">Details</a>
-                        <a href="{{ route('kategori.edit', $r->id) }}" class="tombol">Edit</a>
+                        <a href="{{ route('kategori.edit', $r->id) }}" class="tombol" style="background-color: #0e6624">Edit</a>
                         @csrf
                         @method('DELETE')
-                        <button type="submit" class="tombol">Hapus</button>
+                        <button type="submit" class="tombol" style="background-color: red">Hapus</button>
                     </form>
                 </td>
             </tr>
