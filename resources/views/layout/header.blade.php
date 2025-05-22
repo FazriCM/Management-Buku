@@ -19,7 +19,7 @@
         <div class="nav d-flex justify-content-center">
             <ul>
                 <li><a href="/kategori"><i class="bi bi-tags-fill"></i> Kategori</a></li>
-                <li><a href="/penerbit"><i class="bi bi-building"></i>Penerbit</a></li>
-                <li><a href="/buku"><i class="bi bi-journal-bookmark-fill"></i>Buku</a></li>
+                <li><a href="/penerbit"><i class="bi bi-building"></i> Penerbit</a></li>
+                <li><a href="/buku"><i class="bi bi-journal-bookmark-fill"></i> Buku</a></li>
             </ul>
         </div>
