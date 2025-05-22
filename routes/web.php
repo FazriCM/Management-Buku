@@ -13,6 +13,5 @@ Route::get('/', function () {
 Route::resource('kategori', KategoriController::class);
 Route::resource('penerbit', PenerbitController::class);
 Route::resource('buku', BukuController::class);
-Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
